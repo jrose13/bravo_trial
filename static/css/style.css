@@ -391,7 +391,7 @@ height: 450px;
 }
 /* Mobile Parallax Photo */
 @media (max-width: 650px) {
-    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); height: 300px; }
+    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); height: 120px; }
 }
 
 .input-group-btn .btn:hover {
@@ -947,7 +947,6 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 @media (max-width: 480px) {
   .header-3-sub {
-    padding-top: 100px;
     background-attachment: scroll;
     background-position: 50% 50% !important;
   }
