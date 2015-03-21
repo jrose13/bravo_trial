@@ -376,6 +376,24 @@ li {
   padding-left: 10px;
   padding-right: 12px;
 }
+.parallax-section-1 {
+height: 450px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../../img/MMM_FB_evergreen.jpg');
+    background-size: 100%;
+}
+
+/* Desktop Parallax Photo */
+@media (min-width: 651px){
+    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); }
+}
+/* Mobile Parallax Photo */
+@media (max-width: 650px) {
+    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); height: 300px; }
+}
+
 .input-group-btn .btn:hover {
   background: #cacfd2;
 }
@@ -911,11 +929,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -o-background-size: 17px 12px;
   background-size: 17px 12px;
 }
-.header-3-sub {
-  position: relative;
-  padding-top: 180px;
-  padding-bottom: 300px;
-}
+
 .header-3-sub h3 {
   font-size: 30px;
   font-weight: normal;
