@@ -72,6 +72,7 @@ h1 {
 h2 {
   font-weight: 700;
   margin-bottom: 2px;
+  margin-top: 0;
 }
 h3 {
   font-weight: 700;
@@ -392,6 +393,11 @@ height: 450px;
 /* Mobile Parallax Photo */
 @media (max-width: 650px) {
     .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); height: 120px; }
+}
+
+.vimeo {
+  margin: 25px auto;
+  text-align: center;
 }
 
 .input-group-btn .btn:hover {
