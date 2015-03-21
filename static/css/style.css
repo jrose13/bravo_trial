@@ -435,7 +435,6 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  border-bottom: 5px solid #4ebbc6
 }
 .loaded .page-wrapper,
 .loaded .header-antiflicker,
@@ -981,6 +980,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * */
 .blog-1 {
   padding-bottom: 130px;
+  padding-top: 20px;
 }
 .blog-1 .box-icon {
   margin: 0 auto 35px;
