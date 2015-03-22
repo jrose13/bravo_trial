@@ -398,6 +398,18 @@ height: 450px;
 .vimeo {
   margin: 25px auto;
   text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.vimeo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .input-group-btn .btn:hover {
