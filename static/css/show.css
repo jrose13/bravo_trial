@@ -1,0 +1,46 @@
+/* HEADER PHOTO */
+
+.parallax-section-1 {
+height: 450px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../../img/MMM_FB_evergreen.jpg');
+    background-size: 100%;
+}
+
+/* Desktop Parallax Photo */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px){
+    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); }
+}
+/* Mobile Parallax Photo */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); height: 120px; }
+}
+
+/* iPad Parallax Photo */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); height: 375px; }
+}
+
+
+
+
+
+
+
+.vimeo {
+  margin: 25px auto;
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.vimeo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
