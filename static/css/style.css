@@ -1193,11 +1193,21 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 
 form {text-align: center;}
 
-#ss-submit {
-  text-align: center;
+#navigation-table {
+  margin: 0 auto;
+  padding-top: 20px;
 
 }
 
+#ss-submit {
+  background: #2c3e50;
+  border: none;
+  border-bottom: #212E3C 2px solid;
+}
+
+#ss-q-title {
+  color: white;
+}
 
 .blog-1 p {
   margin: 0;
