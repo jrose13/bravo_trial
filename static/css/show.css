@@ -5,22 +5,22 @@ height: 450px;
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('../../img/MMM_FB_evergreen.jpg');
+    background-image: url('../../img/RHOC10_FB_premiere.jpg');
     background-size: 100%;
 }
 
 /* Desktop Parallax Photo */
 @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px){
-    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); }
+    .parallax-section-1 { background-image: url('../../img/RHOC10_FB_premiere.jpg'); }
 }
 /* Mobile Parallax Photo */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); height: 120px; }
+    .parallax-section-1 { background-image: url('../../img/RHOC10_FB_premiere.jpg'); height: 120px; }
 }
 
 /* iPad Parallax Photo */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .parallax-section-1 { background-image: url('../../img/MMM_FB_evergreen.jpg'); height: 375px; }
+    .parallax-section-1 { background-image: url('../../img/RHOC10_FB_premiere.jpg'); height: 375px; }
 }
 
 

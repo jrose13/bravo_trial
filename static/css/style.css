@@ -1189,6 +1189,15 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 
+.heading {text-align: center;}
+
+form {text-align: center;}
+
+#ss-submit {
+  text-align: center;
+
+}
+
 
 .blog-1 p {
   margin: 0;
